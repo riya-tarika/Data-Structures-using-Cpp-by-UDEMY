@@ -1,0 +1,21 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+int length(char input[])
+{
+    int count=0;
+    for(int i=0;input[i]!='\0';i++)
+    {
+        count++;
+    }
+    return count;
+}
+int main()
+{
+    char name[100],inp[100];
+    cout<<"Enter inp"<<endl;
+    cin.getline(inp,100);
+    cout<<"\n"<<inp;
+    cout<<length(inp);
+    return 0;
+}
